@@ -1,12 +1,40 @@
 body {
-  font-family: "Helvetica", sans-serif;
+      width: 95%;
+      margin: 0 auto;
+      font: 100% Arial, Helvetica, sans-serif;
+      border-bottom: 20px solid #778899;
+      border-top: 20px solid #778899;
 }
-
+html {
+      margin: 0;
+      padding: 0;
+      background: white;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: justify;
+    width: 100%;
+    margin 0 auto;
+    margin bottom: 1em;
+    border: 1px solid #778899;
+    color: black;
+}
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  background-color: #00008B;
+  color: white;
+}
 h2 {
-  color: #7A0019;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: #00008B;
+  color: white;
+  border: 1px solid #778899;
 }
-
-#contact {
-  background-color: #FFDE7A;
-  padding: 2%;
+ul {
+  border: 1px solid #778899;
+  color: black;
 }
