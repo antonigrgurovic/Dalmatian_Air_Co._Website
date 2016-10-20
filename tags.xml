@@ -1,6 +1,11 @@
 <?xml version= "1.0" encoding="UTF-8" standalone="yes"?>
 <?xml-stylesheet type="text/css" href="tags.css"?>
 <!DOCTYPE ContactInfo [
+<!ELEMENT ContactInfo (CompanyName, Phone+, Address)>
+<!ELEMENT CompanyName (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!Element Phone (#PCDATA)>
+<!ATTLIST Phone type (office | cell) #REQUIRED>
 ]>
 <ContactInfo>
   <CompanyName>Dalmatian Air Co.</CompanyName>
