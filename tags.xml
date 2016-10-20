@@ -4,7 +4,7 @@
 <!ELEMENT ContactInfo (CompanyName, Phone+, Address)>
 <!ELEMENT CompanyName (#PCDATA)>
 <!ELEMENT Address (#PCDATA)>
-<!Element Phone (#PCDATA)>
+<!ELEMENT Phone (#PCDATA)>
 <!ATTLIST Phone type (office | cell) #REQUIRED>
 ]>
 <ContactInfo>
