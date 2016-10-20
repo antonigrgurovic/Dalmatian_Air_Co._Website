@@ -1,5 +1,5 @@
 <?xml version= "1.0" encoding="UTF-8" standalone="yes"?>
-
+<?xml-stylesheet type="text/css" href="tags.css"?>
 <FirstTag>
   This is our first xml file
   <!-- This is a comment in the file -->
