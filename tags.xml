@@ -1,6 +1,11 @@
 <?xml version= "1.0" encoding="UTF-8" standalone="yes"?>
 <?xml-stylesheet type="text/css" href="tags.css"?>
-<FirstTag>
-  This is our first xml file
-  <!-- This is a comment in the file -->
-</FirstTag>
+<!DOCTYPE ContactInfo [
+]>
+<ContactInfo>
+  <CompanyName>Dalmatian Air Co.</CompanyName>
+  <Address>23-05 150th St. Whitestone, NY 11357</Address>
+  <Phone type="office">(718) 661-2200</Phone>
+  <Phone type="cell">(917) 287-8322</Phone>
+  <!-- These tags will allow for easy retrieval of contact information -->
+</ContactInfo>

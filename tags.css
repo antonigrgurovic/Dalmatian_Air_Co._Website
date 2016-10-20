@@ -1,7 +1,8 @@
-FirstTag
+ContactInfo
 {
   display : block;
   font-family : Arial;
   font-size : large;
   color : red;
+  text-align : justify;
 }
