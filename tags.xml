@@ -1,16 +1,16 @@
 <?xml version= "1.0" encoding="UTF-8" standalone="yes"?>
 <?xml-stylesheet type="text/css" href="tags.css"?>
-<!DOCTYPE ContactInfo [
-<!ELEMENT ContactInfo (CompanyName, Phone+, Address)>
+<!DOCTYPE CompanyInfo [
+<!ELEMENT CompanyInfo (CompanyName, Phone+, Address)>
 <!ELEMENT CompanyName (#PCDATA)>
 <!ELEMENT Address (#PCDATA)>
 <!ELEMENT Phone (#PCDATA)>
 <!ATTLIST Phone type (office | cell) #REQUIRED>
 ]>
-<ContactInfo>
+<CompanyInfo>
   <CompanyName>Dalmatian Air Co.</CompanyName>
   <Address>23-05 150th St. Whitestone, NY 11357</Address>
   <Phone type="office">(718) 661-2200</Phone>
   <Phone type="cell">(917) 287-8322</Phone>
   <!-- These tags will allow for easy retrieval of contact information -->
-</ContactInfo>
+</CompanyInfo>
