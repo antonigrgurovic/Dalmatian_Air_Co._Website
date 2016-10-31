@@ -8,11 +8,12 @@
 <!ATTLIST Phone type (office | cell) #REQUIRED>
 <!ELEMENT Maintenance (#PCDATA)>
 ]>
+
 <CompanyInfo>
   <CompanyName>Dalmatian Air Co.</CompanyName>
   <Address>23-05 150th St. Whitestone, NY 11357</Address>
   <Phone type="office">(718) 661-2200</Phone>
-  <Phone type="cell">(917) 287-8322</Phone>
+  <Phone type="cell" primary="primary">(917) 287-8322</Phone>
   <Maintenance> Freon check</Maintenance>
   <Maintenance> Electrical check</Maintenance>
   <Maintenance> Leak inspection</Maintenance>
