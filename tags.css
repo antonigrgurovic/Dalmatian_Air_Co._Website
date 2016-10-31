@@ -1,8 +1,9 @@
-ContactInfo
+CompanyInfo
 {
   display : block;
   font-family : Arial;
   font-size : large;
   color : red;
   text-align : justify;
+  border: 1px solid #778899;
 }
