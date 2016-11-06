@@ -13,11 +13,11 @@
   <CompanyName>Dalmatian Air Co.</CompanyName>
   <Address>23-05 150th St. Whitestone, NY 11357</Address>
   <Phone type="office">(718) 661-2200</Phone>
-  <Phone type="cell" primary="primary">(917) 287-8322</Phone>
-  <Maintenance> Freon check</Maintenance>
-  <Maintenance> Electrical check</Maintenance>
-  <Maintenance> Leak inspection</Maintenance>
-  <Maintenance> Parts inspection</Maintenance>
-  <Maintenance> Routine cleaning of unit</Maintenance>
+  <Phone type="cell">(917) 287-8322</Phone>
+  <Maintenance>Freon check</Maintenance>
+  <Maintenance>Electrical check</Maintenance>
+  <Maintenance>Leak inspection</Maintenance>
+  <Maintenance>Parts inspection</Maintenance>
+  <Maintenance>Routine cleaning of unit</Maintenance>
   <!-- These tags will allow for easy retrieval of company information -->
 </CompanyInfo>
