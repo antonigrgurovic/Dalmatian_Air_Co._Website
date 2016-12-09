@@ -1,0 +1,17 @@
+CompanyInfo
+{
+  display : block;
+  font-family : Arial;
+  font-size : large;
+  color : blue;
+  text-align : justify;
+  border: 1px solid #778899;
+  margin: 5px;
+  padding: 10pt;
+}
+
+CompanyName
+{
+  font-weight: bold;
+  margin-bottom: 3%
+}
